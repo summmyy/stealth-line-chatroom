@@ -52,4 +52,4 @@ server.listen(port, () => {
   console.log(`WebSocket server is running on port ${port}`);
 });
 
-export { app, server };
+export default { app, server };
